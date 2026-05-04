@@ -1,0 +1,12 @@
+body{background-color: #c3f7ae}
+.carousel-item {
+    text-align: center; /* Centra la imagen si es más chica que el contenedor */
+    background-color: #f0f0f0; /* Un gris muy suave por si la foto no cubre todo */
+}
+
+.carousel-item img {
+    max-width: 100%;  /* Ajustalo al ancho que más te guste */
+    height: 500px;     /* Altura fija para que no salte el diseño */
+    margin: 0 auto;    /* Centrado horizontal */
+    object-fit: cover; /* ¡CLAVE! Muestra la foto entera sin estirarla */
+}
