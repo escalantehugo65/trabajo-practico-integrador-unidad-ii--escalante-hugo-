@@ -1,0 +1,40 @@
+.ul-contacto a {
+  text-decoration: none;
+  color: black;
+}
+.ul-contacto {
+  list-style: none;
+}
+.dev-contacto {
+  color: rgb(24, 25, 26);
+}
+.direccion .col-6:first-child {
+  border: 2px solid white;
+  border-radius: 2px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.direccion,
+.col-6,
+.col-center {
+  border: 2px solid white;
+  border-radius: 2px;
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.h1-contacto,
+.text-center {
+  font-family: monospace;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  margin-top: 0 !important;
+  border-radius: o;
+  margin: 0 !important;
+}
